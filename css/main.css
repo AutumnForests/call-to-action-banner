@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.card-head {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.markbot-prime {
+  float: left;
+  width: 40%;
+}
+
+.content {
+  float: left;
+  width: 60%;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  width: 80%;
+}
+
+.card-body {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  width: 95%;
+  margin: 0;
+}
+
+.btn-big {
+  width: 80%;
+}
+
+.btn {
+  font-size: 1.5rem;
+  background-color: #333;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: .75rem;
+  margin: 0 0 1.5rem;
+  display: block;
+  text-align: center;
+  float: left;
+}
+
+.btn:hover {
+  background-color: black;
+}
