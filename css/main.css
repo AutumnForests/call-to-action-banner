@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
@@ -27,6 +26,7 @@ body {
 
 .banner-content {
   position: absolute;
+  padding: 1rem;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -36,31 +36,27 @@ body {
 
 .markbot-prime {
   float: left;
-  width: 30%;
+  width: 33.3%;
   max-width: 45em;
-  padding: 0 1rem;
 }
 
 .content {
   float: right;
-  width: 70%;
+  width: 66.6%;
+  padding: 0 2rem;
 }
 
 .title {
+  line-height: 1.1;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
   margin: 0;
-  padding: 0;
-  line-height: 1.2;
-  width: 80%;
-  display: inline-block;
 }
 
 .banner-body {
-  font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  width: 85%;
-  margin: 0;
-  padding: .5em;
+  margin: 0 0 1rem;
+
 }
 
 .btn-big {
